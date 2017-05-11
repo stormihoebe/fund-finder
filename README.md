@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Getting Started with Fund Finder
-1. git clone directory `git clone ...`
+1. git clone directory `git clone https://github.com/stormihoebe/fund-finder.git`
 * Open fund-finder directory `cd fund-finder`
 * Install Angular CLI `npm install -g @angular/cli@1.0.0`
 * Install Typescript `npm install -g typescript`

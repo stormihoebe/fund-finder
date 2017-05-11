@@ -1,4 +1,23 @@
 <h1>Projects</h1>
-<div *ngFor="let project of projects | async">
-    <h3><em>{{project.title}}</em> by {{project.creator}}</h3>
-</div>
+
+<div class="col s12 m7">
+    <div  *ngFor="let project of projects | async" class="card horizontal">
+      <div class="card-image">
+        <img src="{{project.image}}" alt="{{project.title}}'s cover photo">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <span class="card-title">{{project.title}}</span>
+
+          <h6>
+            By: {{project.creator}}
+          </h6>
+          <br>
+          <p>{{project.snippet}}</p>
+        </div>
+        <div class="card-action">
+          <a (click)="goToDetailPage(project)">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
