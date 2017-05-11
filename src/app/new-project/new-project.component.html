@@ -1,0 +1,43 @@
+<h1>Add New Project</h1>
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="Project Title" #newTitle class="validate">
+      </div>
+      <div class="input-field col s6">
+        <input placeholder="Creator Name" #newName class="validate">
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="Project Type" #newType class="validate">
+      </div>
+      <div class="input-field col s6">
+        <input placeholder="Financial Goal $" #newGoal class="validate">
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input placeholder="Project Description" #newDescription class="validate">
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input placeholder="Short Description/Tagline" #newSnippet class="validate">
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input placeholder="What you will offer supporters" #newOffer class="validate">
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input placeholder="Image URL" #newImage class="validate">
+      </div>
+    </div>
+    <a (click)="submitNewProject(newTitle.value, newName.value, newType.value, newDescription.value, newSnippet.value, newGoal.value, newOffer.value, newImage.value)" class="waves-effect waves-light btn">Submit</a>
+
+  </form>
+</div>

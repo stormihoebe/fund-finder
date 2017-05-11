@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectDiscoveryComponent } from './project-discovery/project-discovery.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
-
+import { NewProjectComponent } from './new-project/new-project.component';
 
 
 const appRoutes: Routes = [
@@ -23,6 +23,10 @@ const appRoutes: Routes = [
   {
     path: 'projects/:id',
     component: ProjectDetailComponent
+  },
+  {
+    path: 'new-project',
+    component: NewProjectComponent
   }
 ];
 

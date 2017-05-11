@@ -13,6 +13,7 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { ProjectService } from './project.service';
+import { NewProjectComponent } from './new-project/new-project.component';
 
 
 export const firebaseConfig = {
@@ -30,7 +31,8 @@ export const firebaseConfig = {
     AboutComponent,
     ProjectDescoveryComponent,
     ProjectDiscoveryComponent,
-    ProjectDetailComponent
+    ProjectDetailComponent,
+    NewProjectComponent
   ],
   imports: [
     BrowserModule,
