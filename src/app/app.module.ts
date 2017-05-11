@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectDescoveryComponent } from './project-descovery/project-descovery.component';
 import { ProjectDiscoveryComponent } from './project-discovery/project-discovery.component';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjectDiscoveryComponent } from './project-discovery/project-discovery
     HomeComponent,
     AboutComponent,
     ProjectDescoveryComponent,
-    ProjectDiscoveryComponent
+    ProjectDiscoveryComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,
