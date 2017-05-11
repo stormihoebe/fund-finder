@@ -2,10 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## Getting Started with Fund Finder
+1. git clone directory `git clone ...`
+* Open fund-finder directory `cd fund-finder`
+* Install Angular CLI `npm install -g @angular/cli@1.0.0`
+* Install Typescript `npm install -g typescript`
+* Install Bower `npm install bower -g`
+* Initiate Bower `bower init`
+* Install Materialize (CSS) `bower install materialize`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Run development server `ng serve`
+* Navigate to `http://localhost:4200/`.
 
+
+# Developing with Angular CLI
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
