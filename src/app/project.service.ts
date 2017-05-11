@@ -11,6 +11,7 @@ export class ProjectService {
  }
 
  getProjects(){
+   console.log("HEY getProjects Here!");
    return this.projects;
  }
 }
