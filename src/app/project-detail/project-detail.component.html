@@ -1,3 +1,39 @@
+<img src="{{(projectToDisplay | async)?.image}}" alt="" width="100%">
 <h1>
 {{(projectToDisplay | async)?.title}}
 </h1>
+<h3>By: {{(projectToDisplay | async)?.creator}}</h3>
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card">
+    <div class="card-content">
+      <h5>Description:</h5>
+      <em>{{(projectToDisplay | async)?.type}}</em>
+      <p>{{(projectToDisplay | async)?.description}}</p>
+    </div>
+    </div>
+  </div>
+  <div class="col s12 m6">
+    <div class="card">
+    <div class="card-content">
+      <h5>Goal: $ {{(projectToDisplay | async)?.goal}}</h5>
+      <p>{{(projectToDisplay | async)?.snippet}}</p>
+      <br>
+      <h5>Currently Raised:</h5>
+      <p>$ Amount Goes Here</p>
+      <br>
+      <h5>What You'll Get:</h5>
+      <p>{{(projectToDisplay | async)?.offer}}</p>
+    </div>
+    <hr>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab"><a>$1</a></li>
+        <li class="tab"><a>$10</a></li>
+        <li class="tab"><a>$50</a></li>
+      </ul>
+    </div>
+
+  </div>
+  </div>
+</div>
